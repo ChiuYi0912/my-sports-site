@@ -35,9 +35,9 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // 语言设置，建议改为中文
+
   i18n: {
-    defaultLocale: 'zh-Hans', // <--- 修改：改为中文
+    defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
 
@@ -48,7 +48,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // 如果不想让人编辑你的文档，可以把 editUrl 删掉或注释掉
           //editUrl: 'https://github.com/YOUR_GITHUB_USERNAME/my-sports-site/tree/main/',
         },
         blog: {
@@ -57,7 +56,6 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // 同上，修改 editUrl
           //editUrl: 'https://github.com/YOUR_GITHUB_USERNAME/my-sports-site/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -75,23 +73,22 @@ const config = {
     ({
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '体育共建社区', // 你的网站名
+        title: '体育共建社区',
         logo: {
           alt: 'Logo',
           src: 'img/logo.png',
         },
         items: [
-          // --- 修改开始 ---
+
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '全部文章', // 这里可以保留一个总入口
+            label: '全部文章',
           },
-          // 你也可以直接链接到具体文档
           /* 
           {
-            to: '/docs/philosophy/core-values', // 指向该文件夹下的第一篇文章
+            to: '/docs/philosophy/core-values', 
             label: '体育理念',
             position: 'left',
           },
@@ -101,12 +98,11 @@ const config = {
             position: 'left',
           }, 
           */
-          // --- 修改结束 ---
 
           //{ to: '/blog', label: '社区动态', position: 'left' },
           {
             href: 'https://github.com/ChiuYi0912/bsu-sports-wiki',
-            label: '去GitHub投稿', // 引导大家去贡献
+            label: '去GitHub投稿',
             position: 'right',
           },
         ],
