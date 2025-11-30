@@ -4,27 +4,105 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+
+  --ifm-color-primary: #d71920;
+  --ifm-color-primary-dark: #c1161d;
+  --ifm-color-primary-darker: #b6151b;
+  --ifm-color-primary-darkest: #961116;
+  --ifm-color-primary-light: #ed1c24;
+  --ifm-color-primary-lighter: #ef333a;
+  --ifm-color-primary-lightest: #f5787d;
+
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+
+  --ifm-navbar-height: 4rem;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #ff5252;
+  --ifm-color-primary-dark: #ff2929;
+  --ifm-color-primary-darker: #ff1414;
+  --ifm-color-primary-darkest: #e00000;
+  --ifm-color-primary-light: #ff7b7b;
+  --ifm-color-primary-lighter: #ff9090;
+  --ifm-color-primary-lightest: #ffcece;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+
+  letter-spacing: -0.5px;
+
+}
+
+
+.hero {
+
+  background: linear-gradient(135deg, #911a1a 0%, #000000 100%);
+  color: #fff;
+}
+
+
+.hero__title {
+  text-transform: uppercase;
+
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.hero__subtitle {
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+
+.button {
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.button--primary {
+
+  box-shadow: 0 4px 14px 0 rgba(215, 25, 32, 0.39);
+}
+
+.button--primary:hover {
+  transform: translateY(-2px);
+
+}
+
+
+.navbar {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.menu__link--active {
+  border-left: 4px solid var(--ifm-color-primary);
+  background-color: rgba(215, 25, 32, 0.1);
+
+  border-radius: 0 4px 4px 0;
+
+  color: var(--ifm-color-primary) !important;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: rgba(215, 25, 32, 0.05);
 }

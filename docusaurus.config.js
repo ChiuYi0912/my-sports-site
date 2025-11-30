@@ -6,7 +6,7 @@ const config = {
   // -----------------------------------------------------------
   // 1. 网站基本信息 (修改这里)
   // -----------------------------------------------------------
-  title: '北京体育大学-ChiuYi', // <--- 修改：你的网站名字
+  title: '汇聚大众智慧的体育知识库', // <--- 修改：你的网站名字
   tagline: '热血 | 激情 | 冠军', // <--- 修改：你的口号
   favicon: 'img/favicon.ico',
 
@@ -22,13 +22,13 @@ const config = {
   url: 'https://ChiuYi0912.github.io',
 
   // 保持你刚才改对的设置
-  baseUrl: '/my-sports-site/',
+  baseUrl: '/bsu-sports-wiki/',
 
   // 修改：你的 GitHub 用户名 (不要留 facebook)
   organizationName: 'ChiuYi0912',
 
   // 修改：你的仓库名 (不要留 docusaurus)
-  projectName: 'my-sports-site',
+  projectName: 'bsu-sports-wiki',
 
   // -----------------------------------------------------------
 
@@ -78,7 +78,7 @@ const config = {
         title: '体育共建社区', // 你的网站名
         logo: {
           alt: 'Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           // --- 修改开始 ---
@@ -86,7 +86,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '全部文档', // 这里可以保留一个总入口
+            label: '全部文章', // 这里可以保留一个总入口
           },
           // 你也可以直接链接到具体文档
           /* 
@@ -103,9 +103,9 @@ const config = {
           */
           // --- 修改结束 ---
 
-          { to: '/blog', label: '社区动态', position: 'left' },
+          //{ to: '/blog', label: '社区动态', position: 'left' },
           {
-            href: 'https://https://github.com/ChiuYi0912/my-sports-site.com/YOUR_USERNAME/my-sports-site',
+            href: 'https://github.com/ChiuYi0912/bsu-sports-wiki',
             label: '去GitHub投稿', // 引导大家去贡献
             position: 'right',
           },
@@ -118,12 +118,8 @@ const config = {
             title: '栏目',
             items: [
               {
-                label: '球队百科',
-                to: '/docs/intro',
-              },
-              {
-                label: '赛事新闻',
-                to: '/blog',
+                label: '全部文章',
+                to: '/docs/main',
               },
             ],
           },
@@ -131,8 +127,7 @@ const config = {
             title: '社交媒体',
             items: [
               {
-                label: 'Twitter / X',
-                href: 'https://twitter.com',
+                label: '邮箱:3360625360@qq.com',
               },
             ],
           },

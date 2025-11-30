@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/关于速度训练/空.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "空"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "docs/关于速度训练/空.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README 的反向链接列表"
+              "title": "空 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "docs/关于速度训练/空.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "空 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "docs/关于速度训练/空.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "空 的大纲"
             }
           }
         ]
@@ -183,33 +183,38 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "d0fea8fdc6d4a622",
+  "active": "09f56cdd579cf520",
   "lastOpenFiles": [
+    "docs/关于力量训练/空.md",
+    "docs/关于速度训练/空.md",
+    "docs/main.md",
+    "docs/tutorial-extras/img/localeDropdown.png",
+    "docs/tutorial-extras/img/docsVersionDropdown.png",
+    "docs/tutorial-basics/congratulations.md",
+    "docs/tutorial-extras/translate-your-site.md",
+    "docs/tutorial-extras/manage-docs-versions.md",
+    "未命名.base",
     "static/img/docusaurus.png",
+    "docs/文章大致模板.md",
     "static/img/docusaurus-social-card.jpg",
+    "static/img/logo.png",
+    "static/img/m2logo(20251130-192404).png",
+    "static/img/m2logo.png",
+    "README.md",
     "src/pages/markdown-page.md",
     "node_modules/mimic-fn/readme.md",
     "docs/tutorial-basics/deploy-your-site.md",
     "docs/tutorial-basics/create-a-page.md",
     "docs/tutorial-basics/create-a-document.md",
     "docs/tutorial-basics/create-a-blog-post.md",
-    "docs/tutorial-basics/congratulations.md",
     "blog/2019-05-29-long-blog-post.md",
     "blog/2019-05-28-first-blog-post.md",
     "blog/2021-08-26-welcome/index.md",
     "blog/2021-08-26-welcome/docusaurus-plushie-banner.jpeg",
-    "docs/intro.md",
-    "README.md",
     "node_modules/utils-merge/README.md",
     "node_modules/@colors/colors/README.md",
     "static/img/undraw_docusaurus_tree.svg",
     "static/img/undraw_docusaurus_react.svg",
-    "static/img/undraw_docusaurus_mountain.svg",
-    "static/img/logo.svg",
-    "docs/tutorial-extras/img/localeDropdown.png",
-    "docs/tutorial-extras/img/docsVersionDropdown.png",
-    "docs/tutorial-extras/manage-docs-versions.md",
-    "docs/tutorial-extras/translate-your-site.md",
     "node_modules/accepts/README.md",
     "node_modules/accepts/HISTORY.md"
   ]

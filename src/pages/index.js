@@ -14,19 +14,19 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">
-          汇聚大众智慧的体育知识库
+          北京体育大学——ChiuYi
         </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/main">
             开始阅读
           </Link>
           &nbsp;&nbsp;
           <Link
             className="button button--info button--lg"
-            // 指向你的 GitHub 仓库或者贡献指南页面
-            to="https://https://github.com/ChiuYi0912/my-sports-site.com/YOUR_USERNAME/my-sports-site">
+
+            to="https://github.com/ChiuYi0912/bsu-sports-wiki">
             我要投稿 ✍️
           </Link>
         </div>
