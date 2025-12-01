@@ -101,30 +101,30 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: '栏目',
-            items: [
-              {
-                label: '全部文章',
-                to: '/docs/main',
-              },
-            ],
-          },
-          {
-            title: '社交媒体',
-            items: [
-              {
-                label: '邮箱:3360625360@qq.com',
-                href: 'mailto:3360625360@qq.com',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Sports Site. Built with Docusaurus.`,
-      },
+      // footer: {
+      //   style: 'dark',
+      //   links: [
+      //     {
+      //       title: '栏目',
+      //       items: [
+      //         {
+      //           label: '全部文章',
+      //           to: '/docs/main',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: '社交媒体',
+      //       items: [
+      //         {
+      //           label: '邮箱:3360625360@qq.com',
+      //           href: 'mailto:3360625360@qq.com',
+      //         },
+      //       ],
+      //     },
+      //   ],
+      //   copyright: `Copyright © ${new Date().getFullYear()} My Sports Site. Built with Docusaurus.`,
+      // },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
